@@ -14,23 +14,65 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-color: black;
+    margin-bottom: 60px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(140,140,140,1) 44%, rgba(255,255,255,1) 100%);
+    /*  background-image: url(../img/game-of-thrones-iron-throne.jpg);
+  background-size: contain;*/
 }
 
 #Title {
-    color: whitesmoke;
+    color: white;
+}
+
+#Rating {
+    color: white;
+}
+
+#Summary {
+    color: white;
+}
+
+#Actors {
+    color: white;
 }
 
 #CoverArt {
     border-radius: 50%;
+    width: 75%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#content {
+    vertical-align: middle;
+    border-color: grey;
+    border-width: 10px;
+    border-style: solid;
+    margin: 5% 15%;
+    background-color: black;
 }
 
 .container {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    margin: auto;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
